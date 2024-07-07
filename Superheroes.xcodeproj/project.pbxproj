@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849BDF0D2C21C7A400DD81EA /* HeroCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BDF0C2C21C7A400DD81EA /* HeroCategory.swift */; };
+		849BDF102C21CA5A00DD81EA /* DataDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BDF0F2C21CA5A00DD81EA /* DataDownloadService.swift */; };
+		84B78BA02BECC3D6000BF9E3 /* SuperheroesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78B9F2BECC3D6000BF9E3 /* SuperheroesApp.swift */; };
+		84B78BA22BECC3D6000BF9E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78BA12BECC3D6000BF9E3 /* ContentView.swift */; };
+		84B78BA42BECC3F5000BF9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B78BA32BECC3F5000BF9E3 /* Assets.xcassets */; };
+		84B78BA72BECC3F5000BF9E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B78BA62BECC3F5000BF9E3 /* Preview Assets.xcassets */; };
+		84B78BB02BECC716000BF9E3 /* Hero.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B78BAF2BECC716000BF9E3 /* Hero.json */; };
+		84B78BB32BECCD9E000BF9E3 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78BB22BECCD9E000BF9E3 /* MainPageView.swift */; };
+		84B78BB82BED5582000BF9E3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78BB72BED5582000BF9E3 /* DataService.swift */; };
+		84B78BBA2BED5B92000BF9E3 /* HeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78BB92BED5B92000BF9E3 /* HeroesModel.swift */; };
+		84B78BC02BF0E9E5000BF9E3 /* HeroPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B78BBF2BF0E9E5000BF9E3 /* HeroPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849BDF0C2C21C7A400DD81EA /* HeroCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCategory.swift; sourceTree = "<group>"; };
+		849BDF0F2C21CA5A00DD81EA /* DataDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloadService.swift; sourceTree = "<group>"; };
+		84B78B9C2BECC3D6000BF9E3 /* Superheroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superheroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B78B9F2BECC3D6000BF9E3 /* SuperheroesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroesApp.swift; sourceTree = "<group>"; };
+		84B78BA12BECC3D6000BF9E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84B78BA32BECC3F5000BF9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B78BA62BECC3F5000BF9E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B78BAF2BECC716000BF9E3 /* Hero.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hero.json; sourceTree = "<group>"; };
+		84B78BB22BECCD9E000BF9E3 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		84B78BB72BED5582000BF9E3 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		84B78BB92BED5B92000BF9E3 /* HeroesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModel.swift; sourceTree = "<group>"; };
+		84B78BBF2BF0E9E5000BF9E3 /* HeroPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B78B992BECC3D6000BF9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849BDF0B2C21C72D00DD81EA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				849BDF0C2C21C7A400DD81EA /* HeroCategory.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		849BDF0E2C21CA1100DD81EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				849BDF0F2C21CA5A00DD81EA /* DataDownloadService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84B78B932BECC3D6000BF9E3 = {
+			isa = PBXGroup;
+			children = (
+				84B78B9E2BECC3D6000BF9E3 /* Superheroes */,
+				84B78B9D2BECC3D6000BF9E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B78B9D2BECC3D6000BF9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B78B9C2BECC3D6000BF9E3 /* Superheroes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B78B9E2BECC3D6000BF9E3 /* Superheroes */ = {
+			isa = PBXGroup;
+			children = (
+				849BDF0E2C21CA1100DD81EA /* Services */,
+				849BDF0B2C21C72D00DD81EA /* Enums */,
+				84B78BBE2BF0E9AF000BF9E3 /* HeroPageView */,
+				84B78BB62BED5567000BF9E3 /* Model */,
+				84B78BB12BECCD6D000BF9E3 /* MainPageView */,
+				84B78BAE2BECC540000BF9E3 /* Resources */,
+				84B78B9F2BECC3D6000BF9E3 /* SuperheroesApp.swift */,
+				84B78BA12BECC3D6000BF9E3 /* ContentView.swift */,
+				84B78BA32BECC3F5000BF9E3 /* Assets.xcassets */,
+				84B78BA52BECC3F5000BF9E3 /* Preview Content */,
+			);
+			path = Superheroes;
+			sourceTree = "<group>";
+		};
+		84B78BA52BECC3F5000BF9E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B78BA62BECC3F5000BF9E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B78BAE2BECC540000BF9E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84B78BAF2BECC716000BF9E3 /* Hero.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84B78BB12BECCD6D000BF9E3 /* MainPageView */ = {
+			isa = PBXGroup;
+			children = (
+				84B78BB22BECCD9E000BF9E3 /* MainPageView.swift */,
+			);
+			path = MainPageView;
+			sourceTree = "<group>";
+		};
+		84B78BB62BED5567000BF9E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B78BB72BED5582000BF9E3 /* DataService.swift */,
+				84B78BB92BED5B92000BF9E3 /* HeroesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84B78BBE2BF0E9AF000BF9E3 /* HeroPageView */ = {
+			isa = PBXGroup;
+			children = (
+				84B78BBF2BF0E9E5000BF9E3 /* HeroPageView.swift */,
+			);
+			path = HeroPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B78B9B2BECC3D6000BF9E3 /* Superheroes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B78BAA2BECC3F5000BF9E3 /* Build configuration list for PBXNativeTarget "Superheroes" */;
+			buildPhases = (
+				84B78B982BECC3D6000BF9E3 /* Sources */,
+				84B78B992BECC3D6000BF9E3 /* Frameworks */,
+				84B78B9A2BECC3D6000BF9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Superheroes;
+			productName = Superheroes;
+			productReference = 84B78B9C2BECC3D6000BF9E3 /* Superheroes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B78B942BECC3D6000BF9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84B78B9B2BECC3D6000BF9E3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84B78B972BECC3D6000BF9E3 /* Build configuration list for PBXProject "Superheroes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B78B932BECC3D6000BF9E3;
+			productRefGroup = 84B78B9D2BECC3D6000BF9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B78B9B2BECC3D6000BF9E3 /* Superheroes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B78B9A2BECC3D6000BF9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B78BB02BECC716000BF9E3 /* Hero.json in Resources */,
+				84B78BA72BECC3F5000BF9E3 /* Preview Assets.xcassets in Resources */,
+				84B78BA42BECC3F5000BF9E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B78B982BECC3D6000BF9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BDF0D2C21C7A400DD81EA /* HeroCategory.swift in Sources */,
+				84B78BC02BF0E9E5000BF9E3 /* HeroPageView.swift in Sources */,
+				84B78BA22BECC3D6000BF9E3 /* ContentView.swift in Sources */,
+				84B78BBA2BED5B92000BF9E3 /* HeroesModel.swift in Sources */,
+				84B78BA02BECC3D6000BF9E3 /* SuperheroesApp.swift in Sources */,
+				84B78BB32BECCD9E000BF9E3 /* MainPageView.swift in Sources */,
+				84B78BB82BED5582000BF9E3 /* DataService.swift in Sources */,
+				849BDF102C21CA5A00DD81EA /* DataDownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84B78BA82BECC3F5000BF9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B78BA92BECC3F5000BF9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B78BAB2BECC3F5000BF9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Superheroes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Disa.Superheroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B78BAC2BECC3F5000BF9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Superheroes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Disa.Superheroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B78B972BECC3D6000BF9E3 /* Build configuration list for PBXProject "Superheroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B78BA82BECC3F5000BF9E3 /* Debug */,
+				84B78BA92BECC3F5000BF9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B78BAA2BECC3F5000BF9E3 /* Build configuration list for PBXNativeTarget "Superheroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B78BAB2BECC3F5000BF9E3 /* Debug */,
+				84B78BAC2BECC3F5000BF9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B78B942BECC3D6000BF9E3 /* Project object */;
+}
